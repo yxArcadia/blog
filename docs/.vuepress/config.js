@@ -11,22 +11,23 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   themeConfig: {
+    repo: 'yxArcadia/blog',
     sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: 'Last Updated' ,// 文档更新时间：每个文件git最后提交的时间
 	nav:[// 添加导航栏
       { text: '前端算法', link: '/algorithm/' }, // 内部链接 以docs为根目录
       { text: '博客', link: 'http://obkoro1.com/' }, // 外部链接
       // 下拉列表
-      {
-        text: 'GitHub',
-        items: [
-          { text: 'GitHub地址', link: 'https://github.com/OBKoro1' },
-          {
-            text: '算法仓库',
-            link: 'https://github.com/OBKoro1/Brush_algorithm'
-          }
-        ]
-      }        
+      // {
+      //   text: 'GitHub',
+      //   items: [
+      //     { text: 'GitHub地址', link: 'https://github.com/OBKoro1' },
+      //     {
+      //       text: '算法仓库',
+      //       link: 'https://github.com/OBKoro1/Brush_algorithm'
+      //     }
+      //   ]
+      // }
     ],
     // 为以下路由添加侧边栏
     sidebar:{

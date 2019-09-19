@@ -2,6 +2,7 @@
 *.class
 node_modules/
 .idea/
+deploy.sh
 # Log file
 *.log
 
