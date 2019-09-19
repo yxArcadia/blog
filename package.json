@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^4.3.0",
+    "element-ui": "^2.12.0",
+    "highlight.js": "^9.15.10",
+    "less": "^3.10.3",
+    "vue-echarts": "^4.0.4",
+    "vue-highlight.js": "^3.1.0"
+  },
+  "devDependencies": {
+    "less-loader": "^5.0.0",
+    "node-less": "^1.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
+  }
+}
