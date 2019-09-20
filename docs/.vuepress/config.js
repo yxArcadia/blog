@@ -3,6 +3,7 @@ module.exports = {
   description: '网站描述',
   // 注入到当前页面的 HTML <head> 中的标签
   port:80,//端口
+  base:"/blog/",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
