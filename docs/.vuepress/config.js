@@ -17,46 +17,35 @@ module.exports = {
     lastUpdated: 'Last Updated' ,// 文档更新时间：每个文件git最后提交的时间
 	nav:[// 添加导航栏
       { text: '前端算法', link: '/algorithm/' }, // 内部链接 以docs为根目录
-      { text: '博客', link: 'http://obkoro1.com/' }, // 外部链接
-      // 下拉列表
-      // {
-      //   text: 'GitHub',
-      //   items: [
-      //     { text: 'GitHub地址', link: 'https://github.com/OBKoro1' },
-      //     {
-      //       text: '算法仓库',
-      //       link: 'https://github.com/OBKoro1/Brush_algorithm'
-      //     }
-      //   ]
-      // }
+      { text: '博客', link: 'http://www.baidu.com/' }, // 外部链接
     ],
     // 为以下路由添加侧边栏
     sidebar:{
       '/guide/': [
         {
-          title: '布局类组件',
+          title: 'spring 基础',
           collapsable: true,
           children: [
-            'test/test1',
-            'test/test2',
-            'test/test3',
-            'test/test4',
+            'spring/test1',
+            'spring/test2',
+            'spring/test3',
+            'spring/test4',
           ]
         },
         {
-          title: '可视化组件',
-          collapsable: true,
-          children: [
-          ]
-        },
-        {
-          title: '工具类组件',
+          title: 'spring mvc框架',
           collapsable: true,
           children: [
           ]
         },
         {
-          title: '方法类函数',
+          title: 'spring boot框架',
+          collapsable: true,
+          children: [
+          ]
+        },
+        {
+          title: 'spring cloud框架',
           collapsable: true,
           children: [
           ]
@@ -64,25 +53,7 @@ module.exports = {
       ],
       '/knowledge/': [
         {
-          title: 'CSS知识库',
-          collapsable: false,
-          children: [
-          ]
-        },
-        {
-          title: 'JS知识库',
-          collapsable: false,
-          children: [
-          ]
-        },
-        {
-          title: 'node知识库',
-          collapsable: false,
-          children: [
-          ]
-        },
-        {
-          title: 'vue知识库',
+          title: 'java se',
           collapsable: false,
           children: [
           ]
