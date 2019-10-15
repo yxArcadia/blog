@@ -15,50 +15,12 @@ module.exports = {
     repo: 'yxArcadia/blog',
     sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: 'Last Updated' ,// 文档更新时间：每个文件git最后提交的时间
+    displayAllHeaders: true, // 默认值：false,
 	nav:[// 添加导航栏
       { text: '前端算法', link: '/algorithm/' }, // 内部链接 以docs为根目录
       { text: '博客', link: 'http://www.baidu.com/' }, // 外部链接
     ],
     // 为以下路由添加侧边栏
-    sidebar:{
-      '/guide/': [
-        {
-          title: 'spring 基础',
-          collapsable: true,
-          children: [
-            'spring/test1',
-            'spring/test2',
-            'spring/test3',
-            'spring/test4',
-          ]
-        },
-        {
-          title: 'spring mvc框架',
-          collapsable: true,
-          children: [
-          ]
-        },
-        {
-          title: 'spring boot框架',
-          collapsable: true,
-          children: [
-          ]
-        },
-        {
-          title: 'spring cloud框架',
-          collapsable: true,
-          children: [
-          ]
-        }
-      ],
-      '/knowledge/': [
-        {
-          title: 'java se',
-          collapsable: false,
-          children: [
-          ]
-        }
-      ]
-    }
+    sidebar:'auto',
   }
 };
