@@ -26,10 +26,10 @@
     "vue-highlight.js": "^3.1.0"
   },
   "devDependencies": {
-    "less-loader": "^5.0.0",
+    "less-loader": "^11.1.0",
     "node-less": "^1.0.0",
     "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.0",
+    "sass-loader": "^13.2.0",
     "vuepress-plugin-autobar": "github:boboidream/vuepress-bar"
   },
   "homepage": "https://github.com/yxArcadia/blog#readme"
